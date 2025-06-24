@@ -6,12 +6,22 @@ body {
   margin: 20px;
 }
 
-#hero {
-  margin: 0;
+.deactive {
+  display: none;
+}
+
+#header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fixedElement {
+  background-color: #0f1116;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 #links {
@@ -20,7 +30,8 @@ body {
   font-size: x-large;
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 #links a {
@@ -38,6 +49,6 @@ body {
   cursor: pointer;
 }
 
-#header {
-  max-width: 1200px;
-}
+/* #header { */
+/* max-width: 1200px; */
+/* } */
