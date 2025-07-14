@@ -1,9 +1,10 @@
 [application]
 
 [web.app]
+base_path = "Personal-Site"
 
 # HTML title tag content
-title = "website"
+title = "Jonah Irizarry"
 
 # include `assets` in web platform
 [web.resource]
