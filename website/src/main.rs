@@ -88,7 +88,10 @@ fn ProjectsPage() -> Element{
                     "onmouseout": "this.src='{FFXIV_WTUI}'",
                     alt:"A screenshot of the Final Fantasy XIV Weather terminal application"
                 },
-                p{class:"pname","Final Fantasy XIV Weather App"},
+                a{
+                    class:"pname",
+                    href: "https://github.com/linktimemaster/FFXIV-Weather-TUI",
+                    "Final Fantasy XIV Weather App"},
                 p{class:"planguages","C++"},
                 p{class:"pdesc","A terminal app to display the weather in all areas of FFXIV."}
             }
